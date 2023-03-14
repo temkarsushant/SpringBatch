@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<prodId>33</prodId>
+		<prodCode>
+			PEN
+		</prodCode>
+		<prodCost>
+			200.0
+		</prodCost>
+	</product>
+<!-- 	<product> -->
+<!-- 		<prodId>21</prodId> -->
+<!-- 		<prodCode> -->
+<!-- 			PEN -->
+<!-- 		</prodCode> -->
+<!-- 		<prodCost> -->
+<!-- 			200.0 -->
+<!-- 		</prodCost> -->
+<!-- 	</product> -->
+<!-- 	<product> -->
+<!-- 		<prodId>22</prodId> -->
+<!-- 		<prodCode> -->
+<!-- 			PEN -->
+<!-- 		</prodCode> -->
+<!-- 		<prodCost> -->
+<!-- 			200.0 -->
+<!-- 		</prodCost> -->
+<!-- 	</product> -->
+<!-- 	<product> -->
+<!-- 		<prodId>23</prodId> -->
+<!-- 		<prodCode> -->
+<!-- 			PEN -->
+<!-- 		</prodCode> -->
+<!-- 		<prodCost> -->
+<!-- 			200.0 -->
+<!-- 		</prodCost> -->
+<!-- 	</product> -->
+<!-- 	<product> -->
+<!-- 		<prodId>24</prodId> -->
+<!-- 		<prodCode> -->
+<!-- 			PEN -->
+<!-- 		</prodCode> -->
+<!-- 		<prodCost> -->
+<!-- 			200.0 -->
+<!-- 		</prodCost> -->
+<!-- 	</product> -->
+<!-- 	<product> -->
+<!-- 		<prodId>25</prodId> -->
+<!-- 		<prodCode> -->
+<!-- 			PEN -->
+<!-- 		</prodCode> -->
+<!-- 		<prodCost> -->
+<!-- 			200.0 -->
+<!-- 		</prodCost> -->
+<!-- 	</product> -->
+</products>
