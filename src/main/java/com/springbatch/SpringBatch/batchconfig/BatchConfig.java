@@ -61,16 +61,6 @@ public class BatchConfig {
 		marshaller.getXStream().allowTypes(new Class[] { Product.class });
 		reader.setUnmarshaller(marshaller);
 
-// To Read The Data
-//		reader.open(new ExecutionContext());
-//		Product person = null;
-//		try {
-//			person = reader.read();
-//		} catch (Exception e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-
 		return reader;
 	}
 
@@ -94,15 +84,6 @@ public class BatchConfig {
 		writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>());
 		return writer;
 	}
-
-//	@Bean
-//	public JdbcBatchItemWriter<Product> writeDataInDB() {
-//		JdbcBatchItemWriter<Product> writer = new JdbcBatchItemWriter<>();
-//		writer.setDataSource(dataSource);
-//		writer.setSql("INSERT INTO PRODUCT(prod_id,prod_code,prod_cost,prod_disc,prod_gst) values(?,?,?,?,?)");
-//		writer.setItemPreparedStatementSetter(new ProductItemPreparedStatementSetter());
-//		return writer;
-//	}
 
 //	d.listener class object
 	@Bean
@@ -131,9 +112,5 @@ public class BatchConfig {
 		return jf.get("jobA").incrementer(new RunIdIncrementer()).listener(listner()).start(stepA()).build();
 	}
 
-//	@Bean
-//	public Job jobA() {
-//		return jf.get("jobA").incrementer(new RunIdIncrementer()).flow(stepA()).end().build();
-//	}
 
 }
